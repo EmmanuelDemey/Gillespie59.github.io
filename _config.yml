@@ -6,8 +6,8 @@ exclude: ["README.md"] # files to exclude
 pygments: true
 markdown: kramdown
 
-title: dbyll
-description: Stylish Jekyll Theme
+title: Emmanuel DEMEY
+description: Web Specialist
 author:
   name: Emmanuel Demey
   email: demey.emmanuel@gmail.com
