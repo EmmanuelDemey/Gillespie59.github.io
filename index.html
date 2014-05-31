@@ -1,6 +1,6 @@
 ---
 layout: page
-title: dbyll
+title: Emmanuel DEMEY
 tagline:
 ---
 
@@ -8,20 +8,12 @@ tagline:
 
 <article class="home">
 
-  <span class="post-date">
-    {% assign d = post.date | date: "%d" | plus:'0' %}
-    {{ post.date | date: "%B" }}
-    {% case d %}
-    {% when 1 or 21 or 31 %}{{ d }}st,
-    {% when 2 or 22 %}{{ d }}nd,
-    {% when 3 or 23 %}{{ d }}rd,
-    {% else %}{{ d }}th,
-    {% endcase %}
-    {{ post.date | date: "%Y" }}
-  </span>
-
   <h2>
     <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    <span class="post-date">
+      {% assign d = post.date | date: "%d" | plus:'0' %}
+      {{ d }}/{{ post.date | date: "%m" }}/{{ post.date | date: "%Y" }} 
+    </span>
   </h2>
 
   <div>
@@ -36,6 +28,24 @@ tagline:
     {{ post.excerpt }}
     {% endif %}
     {% endif %}
+  </div>
+
+  <div class="share col-sm-6">
+    <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text={{page.title | encode}}{% if site.author.twitter%}&via={{site.author.twitter}}{% endif %}"
+       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <i class="fa fa-twitter fa-lg"></i>
+      Twitter
+    </a>
+    <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
+       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <i class="fa fa-facebook fa-lg"></i>
+      Facebook
+    </a>
+    <a class="btn btn-default btn-sm gplus"
+       onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <i class="fa fa-google-plus fa-lg"></i>
+      Google+
+    </a>
   </div>
 
 </article>
