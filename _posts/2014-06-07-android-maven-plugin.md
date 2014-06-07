@@ -14,7 +14,6 @@ Depuis quelques mois, Google préconise l'utilisation de Gradle pour tous nouvea
 - Installer/Désinstaller votre applications sur un Android
 - Démarrer un émulateur.
 - ...
-- 
 
 Pour bénéficier de ce plugin, il suffit de l'ajouter dans le pom.xml de votre projet: 
 
