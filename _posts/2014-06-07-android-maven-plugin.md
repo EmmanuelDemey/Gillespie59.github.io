@@ -28,7 +28,7 @@ Pour bénéficier de ce plugin, il suffit de l'ajouter dans le pom.xml de votre 
 Pourtant, j'ai trouvé deux limitations dans ce plugin : 
 
 - Nous pouvons, grâce au paramètre device, définir le ou les appareils Android que nous voulons utiliser. Ce paramètre peut avoir les valeurs suivantes : emulator (tous les émulateurs seront utilisés), usb (tout les téléphones/tablettes connectés via USB) ou encore l'identifiant complet d'un appareil. Il est ainsi impossible de mixer ces configurations, pour choisir, par exemple, d'utiliser tous les émulators et 2 téléphones connectés via USB. 
-- Impossible de définir des adresses IPs externes correspondant à des téléphones/tablettes/émulators que nous souhaitons utiliser lors de nos développements. 
+- Impossible de définir des adresses IPs externes correspondant à des téléphones/tablettes/émulateurs que nous souhaitons utiliser lors de nos développements. 
 
 
 Grâce à deux Pull Requests, ces 2 limitations sont maintenant corrigées :
@@ -37,9 +37,10 @@ Grâce à deux Pull Requests, ces 2 limitations sont maintenant corrigées :
 - <a href="https://github.com/jayway/maven-android-plugin/pull/306" target="_blank">Add Connect and Disconnect mojos</a>
 
 
-Il est maintent possible de définir une liste de target, ainsi que des adresses IP. Pour pouvoir utiliser ces adresses IP, il sera nécessaire d'exécute le nouveau goal andoird:connect avant d'exécuter le goal initial. 
+Il est maintent possible de définir une liste de target, ainsi que des adresses IP. Pour pouvoir utiliser ces adresses IP, il sera nécessaire d'exécuter le nouveau goal android:connect avant d'exécuter le goal initial. 
 
 
+{% highlight xml %}
 <plugin>
   <groupId>com.jayway.maven.plugins.android.generation2</groupId>
   <artifactId>android-maven-plugin</artifactId>
@@ -52,6 +53,7 @@ Il est maintent possible de définir une liste de target, ainsi que des adresses
       </devices>
   </configuration>
 </plugin>
+{% endhighlight %}
 
 Ces fonctionnalités sont disponibles dans la dernière version du plugin. 
 
