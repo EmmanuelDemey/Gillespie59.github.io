@@ -2,7 +2,7 @@
 layout: post
 title: Android Maven Plugin!
 categories: [maven, android]
-tags: [maven, android]
+tags: [Maven, Android]
 fullview: true
 ---
 
