@@ -9,8 +9,18 @@
 </header>
 
 {% if site.author.bio %}
-<div id="bio" class="text-center" property="v:title">
-	{{ site.author.bio }}
+<div id="bio" class="text-center" >
+	<div>
+	<span  property="v:title">{{ site.author.bio }}</span> - 
+	<span  property="v:affiliation">{{ site.author.org }}</span>
+	</div>
+	<div>
+	<span rel="v:address">
+          <span typeof="v:Address">
+            <span property="v:locality">Lille</span>,
+          </span>
+        </span>
+        </div>
 </div>
 {% endif %}
 
