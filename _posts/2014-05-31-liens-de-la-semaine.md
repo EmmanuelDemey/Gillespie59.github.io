@@ -2,7 +2,7 @@
 layout: post
 title: Les Liens de la Semaine #1
 categories: [liens_de_la_semaine]
-tags: ["angularJS", "NodeJS", "Test", "CSS", "Polymer", "Web Components", "Accessibilité"]
+tags: ["AngularJS", "NodeJS", "Test", "CSS", "Polymer", "Web Components", "Accessibilité"]
 fullview: true
 comments: true
 ---
