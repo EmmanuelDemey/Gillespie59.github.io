@@ -51,6 +51,9 @@ Il est maintent possible de définir une liste de target, ainsi que des adresses
         <device>127.0.0.1</device>
         <device>id_of_my_phone</device>
       </devices>
+      <ips>
+        <ip>127.0.0.1</ip>
+      </ips>
   </configuration>
 </plugin>
 {% endhighlight %}
