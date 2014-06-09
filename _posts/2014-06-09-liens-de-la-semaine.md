@@ -2,7 +2,7 @@
 layout: post
 title: Les Liens de la Semaine #2
 categories: [liens_de_la_semaine]
-tags: []
+tags: ["Javascript", "erlang", "Accessibilité", "Maven", "Golo", "Swift", "Git", "AngularJS", "CSS", "HTML5", "Android", "Grunt"]
 fullview: true
 comments: true
 ---
