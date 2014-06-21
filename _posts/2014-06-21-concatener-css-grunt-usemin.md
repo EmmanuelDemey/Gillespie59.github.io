@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Concaténer vos css avec le plugin grunt-usemi,
+title: Concaténer vos css avec le plugin usemin,
 categories: []
-tags: [Grunt]
+tags: [Grunt, NodeJS, JavaScript]
 fullview: true
 ---
 
@@ -12,7 +12,7 @@ Voici un petit article pour expliquer l'usage du plugin grunt-usemin afin de con
 Pour pouvoir utiliser ce plugin, il faut d'abord exécuter npm install grunt-usemin --save-dev. Une fois intallé, vous avez à disposition deux nouvelles tâches Grunt : 
 
 - useminprepare : cette tâche va parser les fichiers html (voir ci-dessous) afin de surcharger la configuration des plugins grunt-contrib-concat, grunt-contrib-cssmin et grunt-contrib-uglify. 
-- usemin : cette tâche va regénérer les fichiers HTML, afin de remplacer les resources statiques par celles optimisées. 
+- usemin : cette tâche va regénérer les fichiers HTML, afin de remplacer les ressources statiques par celles optimisées. 
 
 Il faut donc inclure également les plugins suivant dans votre projet : grunt-contrib-concat, grunt-contrib-cssmin et grunt-contrib-uglify. La tâche useminprepare doit etre exécutée en premier, et usemin en dernier. 
 
@@ -51,3 +51,14 @@ grunt.initConfig({
 grunt.loadNpmTasks('grunt-usemin');
 {% endhighlight %}
         
+Une fois les tâches exécutées, le fichier html importera le nouveau fichier CSS créé par le plugin :
+
+{% highlight xml %}
+<html>
+  <head>
+    
+      <link href="style/styles.css" rel="stylesheet" type="text/css" />  
+      
+  </head>
+</html>
+{% endhighlight %}
