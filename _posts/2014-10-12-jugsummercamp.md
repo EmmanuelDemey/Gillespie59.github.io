@@ -6,6 +6,7 @@ tags: [ESLint, Conférence, JugSummerCamp]
 fullview: true
 twittertitle: ESLint
 twitterdescription: Vérifier la qualité de vos applications AngularJS avec ESLint
+twitterimage: https://pbs.twimg.com/profile_images/422081374422446080/RNoIP-zD.png
 ---
 
 Mieux vaut tard que jamais... 
