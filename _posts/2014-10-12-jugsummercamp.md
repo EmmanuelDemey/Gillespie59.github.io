@@ -4,6 +4,9 @@ title: Jug Summer Camp 2014
 categories: []
 tags: [ESLint, Conférence, JugSummerCamp]
 fullview: true
+twitter-title: Test
+twitter-title: Test
+twitter-description: Descr
 ---
 
 Mieux vaut tard que jamais... 
