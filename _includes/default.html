@@ -7,7 +7,15 @@
 	<meta name="description" content="{{ page.description }}">
 	{% endif %}
 	<meta name="author" content="{{ site.author.name }}">
-
+	
+	{% if page.twitter-title %}
+	<meta name="twitter:title" content="{{ page.twitter-title }}">
+	{% endif %}
+	
+	{% if page.twitter-description %}
+	<meta name="twitter:description" content="{{ page.twitter-description }}">
+	{% endif %}
+	
 	<!-- Enable responsive viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
