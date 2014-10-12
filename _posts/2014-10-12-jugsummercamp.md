@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JugS ummer Camp 2014
+title: Jug Summer Camp 2014
 categories: []
 tags: [ESLint, Conférence, JugSummerCamp]
 fullview: true
