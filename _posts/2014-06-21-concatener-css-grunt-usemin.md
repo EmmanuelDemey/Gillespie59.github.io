@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Concaténer vos css avec le plugin usemin,
+title: Concaténer vos css avec le plugin usemin
 categories: []
 tags: [Grunt, NodeJS, JavaScript]
 fullview: true
