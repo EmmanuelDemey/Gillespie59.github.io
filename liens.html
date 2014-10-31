@@ -1,0 +1,18 @@
+---
+layout: page
+title: Liens
+header: Liens
+group: navigation
+---
+
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tag_words = site_tags | split:',' | sort %}
+
+
+<div class="col-sm-3 col-xs-6">
+    <ul class="nav nav-tabs-vertical">
+      <li><a href="http://addyosmani.com/blog/" target="_blank">Addy Osmani</a></li>
+    </ul>
+</div>
+
+<div class="clearfix"></div>
