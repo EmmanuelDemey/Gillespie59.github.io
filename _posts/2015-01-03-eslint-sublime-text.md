@@ -21,7 +21,7 @@ Afin d'avoir la même configuration ESLint pour tous mes projets, j'étais à la
 
 Grâce au plugin SublimeLinter, il est possible d'ajouter des paramètres à la ligne de commande exécutée. Cette configuration doit être définie dans le fichier Settings de SublimeLinter. Il suffit d'utiliser l'option 'args' pour le linter 'eslint'. 
 
-![Sublime Text Menu]({{ site.url }}/assets/metia/ST1.png)
+![Sublime Text Menu]({{ site.url }}/assets/media/ST1.png)
 
-![Sublime Text Configuration]({{ site.url }}/assets/metia/ST2.png)
+![Sublime Text Configuration]({{ site.url }}/assets/media/ST2.png)
 
