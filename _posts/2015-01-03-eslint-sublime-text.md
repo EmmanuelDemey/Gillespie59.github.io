@@ -2,7 +2,7 @@
 layout: post
 title: Utiliser ESLint directement dans Sublime Text 3
 categories: []
-tags: [ESLint, IDE, JavaScript]
+tags: [ESLint, IDE, JavaScript, Qualité]
 fullview: true
 twittertitle: ESLint directement dans Sublime Text 3
 twitterdescription: Comment avoir les erreurs/warnings ESLint directement dans Sublime Text 3
