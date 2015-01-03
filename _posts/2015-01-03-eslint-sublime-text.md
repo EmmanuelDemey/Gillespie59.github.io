@@ -15,7 +15,7 @@ J'ai passé quelques heures hier soir sur ce sujet, et c'est donc pour cela que 
 
 Si vous êtes, comme moi, un grand fan de ESLint, l'outil pour vérifier la qualité de votre code JavaScript, ce petit article va sûrement vous être très utile. 
 
-Il existe un package dans Sublime Text, SublimeLinter, qui permet de vérifier la qualité de votre code. A ce package s'ajoutent de nombreux plugins que vous devez utilisé en fonction du type d'applications vous êtes en train de développer : JavaScript, CoffeeScript, PHP, ... Pour le JavaScript, je ne peux que conseiller [SublimeLinter-eslint](https://github.com/roadhump/SublimeLinter-eslint) qui permet d'intégrer notre plugin préféré à Sublime Text. 
+Il existe un package dans Sublime Text, SublimeLinter, qui permet de vérifier la qualité de votre code. A ce package s'ajoutent de nombreux plugins que vous devez utiliser en fonction du type d'applications vous êtes en train de développer : JavaScript, CoffeeScript, PHP, ... Pour le JavaScript, je ne peux que conseiller [SublimeLinter-eslint](https://github.com/roadhump/SublimeLinter-eslint) qui permet d'intégrer notre plugin préféré à Sublime Text. 
 
 Afin d'avoir la même configuration ESLint pour tous mes projets, j'étais à la recherche d'un moyen d'utiliser le paramètre '--config' disponible dans ESLint. 
 
