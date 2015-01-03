@@ -7,7 +7,23 @@
 	<meta name="description" content="{{ page.description }}">
 	{% endif %}
 	<meta name="author" content="{{ site.author.name }}">
-
+	
+	{% if page.twitterdescription %}
+	<meta name="twitter:card" content="summary" />
+	{% endif %}
+	
+	{% if page.twittertitle %}
+	<meta name="twitter:title" content="{{ page.twittertitle }}">
+	{% endif %}
+	
+	{% if page.twitterdescription %}
+	<meta name="twitter:description" content="{{ page.twitterdescription }}">
+	{% endif %}
+	
+	{% if page.twitterimage %}
+	<meta name="twitter:image" content="{{ page.twitterimage }}" />
+	{% endif %}
+	
 	<!-- Enable responsive viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -83,6 +99,7 @@
 			<li><a href="{{ site.BASE_PATH}}/"><i class="fa fa-home"></i> Accueil </a></li>
 			<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><i class="fa fa-folder"></i> Catégories</a></li>
 			<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}"><i class="fa fa-tags"></i> Tags</a></li>
+			<li><a href="{{ site.BASE_PATH}}/{{ site.liens_path }}"><i class="fa fa-bookmark-o"></i> Liens</a></li>
 			<li class="divider"></li>
 			<li><a href="#"><i class="fa fa-arrow-up"></i> Haut de la page</a></li>
 		</ul>
