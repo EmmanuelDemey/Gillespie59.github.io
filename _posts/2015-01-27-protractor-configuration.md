@@ -13,7 +13,7 @@ Un petit article pour partager une petite astuce que je viens d'utiliser pour l'
 
 Comme la plupart d'entre vous ;), j'utilise bien sûr Protractor pour tester mes application AngularJS. Dans l'une de mes applications, j'avais besoins de récupérer la propriété baseUrl définie dans le fichier de configuration Protractor, afin de l'utiliser dans mes tests. 
 
-Rien de plus simple... Comme le fichier de configuration Protractor est un Module (utilisant exports.config), il est dont possible d'importer ce module, et d'aller récupérer le ou les propriétés que vous avez besoin : 
+Rien de plus simple... Comme le fichier de configuration Protractor est un Module (exportant un objet config), il est dont possible d'importer ce module, et d'aller récupérer le ou les propriétés que vous avez besoin : 
 
 {% highlight javascript %}
 (function(){
