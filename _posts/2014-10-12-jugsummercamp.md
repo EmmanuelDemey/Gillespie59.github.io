@@ -2,7 +2,7 @@
 layout: post
 title: Jug Summer Camp 2014
 categories: []
-tags: [ESLint, Conférence, JugSummerCamp]
+tags: [ESLint, Conférence, JugSummerCamp, NodeJS, JavaScript, Qualité]
 fullview: true
 twittertitle: ESLint
 twitterdescription: Vérifier la qualité de vos applications AngularJS avec ESLint
