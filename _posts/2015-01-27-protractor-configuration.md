@@ -2,7 +2,7 @@
 layout: post
 title: Récupérer la configuration Protractor dans vos tests
 categories: []
-tags: ["AngularJS", "NodeJS"," Protractor", "Qualité", "JavaScript"]
+tags: ["AngularJS", "NodeJS"," Protractor", "Qualité", "JavaScript", "Google"]
 fullview: true
 twittertitle: Protractor - Tester vos application AngularJS 
 twitterdescription: Récupérer la configuration dans vos tests
