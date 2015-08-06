@@ -91,7 +91,7 @@ handlers:
 {% endhighlight %}
 
 
-Of course, this small configuration is not enough. You should add for every static files your App Engine instance has to serve, the corresponding configuration block (XML, font, …). 
+Of course, this small configuration is not enough. You should add for every static files your App Engine instance has to serve, the corresponding configuration block (XML, font, …). You can have a look to the file I have created for the application [here](https://github.com/Gillespie59/google-project/blob/master/app.yaml).
 
 And this first post is now drawing to a close. You should have now an up-and-running application you can deploy on App Engine. 
 
