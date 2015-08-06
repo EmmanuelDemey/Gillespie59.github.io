@@ -39,16 +39,16 @@ handlers:
 
 
 Here is the description of these properties : 
+
 - application : the ID of the application you have created on App Engine
 - version : the version of your application
 - runtime : the App Engine runtime needed for your application
 - app_version : the version of the runtime
 
 The first handler will define is for the REST API. We have to define two properties :
+
 - url : the pattern of URL. In the regular expression, you can define capture group (more informations about these groups later). 
 - script : the name of the script App Engine has to execute for this URL pattern. For GO application, you have to use the magic string `_go_app`.
-
-//TODO quel fichier go est utilisé ? 
 
 {% highlight yaml %}
 handlers:
@@ -61,6 +61,7 @@ When your API is implemented, if you launch your application with the *goapp* ut
 So we have our API, let’s configure our static files (CSS, JS and HTML for the moment). We will define the same kind of configuration described previously. 
 
 For each URL pattern (based on the file extension) , we will define at least three properties : 
+
 - mime_types : the mime-type of the corresponding static file
 - static_files : the path of the files matched by the URL pattern. You can access to capture groups defined in the URL pattern ("\1" refer to the first group, "\2" the second one...).
 - upload : a regexp corresponding to the path of all files served by this handler
