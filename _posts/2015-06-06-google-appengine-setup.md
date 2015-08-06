@@ -15,18 +15,18 @@ I have started last week a project in which I will only use Google technologies.
 
 What I have in mind for the moment, is an application using : 
 
-- The Go language for the server-side hosted on App Engine
-- Angular2 and Material Design Lite for the front-end
+- The **Go** language for the server-side hosted on **App Engine**
+- **Angular2** and **Material Design Lite** for the front-end
 
 If you have other ideas for the technical stack, do not hesitate to comment one of my posts, or create issues on the Github repository. I will be very glad to have a look to your ideas, and write some articles about them.
 
 In a daily bases, I am working with front-end technologies (HTML5, AngularJS, jQuery, ...). All articles I will write about server-side components will be maybe too simple for some of you. I am sorry for that. But the main goal of this serie of posts is the discover of Google products. 
 
-Let start with the beginning… with the quick configuration of my AppEngine instance, defined in a app.yaml file. 
+Let start with the beginning… with the quick configuration of my **App Engine** instance, defined in a app.yaml file. 
 
-The application will be composed of two parts : an REST API (implemented in Go) and an interface (using Angular2). The UI part should be available at “/” and the API at “/api/”. In the app.yaml configuration file of App Engine, I have to configure differents handlers, in a `handler` block,  based on an URL pattern. 
+The application will be composed of two parts : an REST API (implemented in **Go**) and an interface (using **Angular2**). The UI part should be available at “/” and the API at “/api/”. In the app.yaml configuration file of **App Engine**, I have to configure differents handlers, in a `handler` block,  based on an URL pattern. 
 
-Here is the basic version of this file, defining the technology of the application hosted on AppEngine. 
+Here is the basic version of this file, defining the technology of the application hosted on **App Engine**. 
 
 
 {% highlight yaml %}
@@ -50,7 +50,7 @@ Here is the description of these properties :
 The first handler we will define is for the REST API. We have to define two properties :
 
 - url : the pattern of the URL. In this regular expression, you can define capture group (more informations about these groups later). 
-- script : the name of the script App Engine has to execute for this URL pattern. For *Go* application, you have to use the magic string `_go_app`.
+- script : the name of the script App Engine has to execute for this URL pattern. For **Go** application, you have to use the magic string `_go_app`.
 
 {% highlight yaml %}
 handlers:
