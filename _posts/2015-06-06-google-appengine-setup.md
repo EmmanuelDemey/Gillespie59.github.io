@@ -1,10 +1,10 @@
 ---
 layout: post
-title: How to configure App Engine for your Go and Angular2 application
+title: How to configure App Engine for your Go application
 categories: []
 tags: ["Google", "AppEngine"]
 fullview: true
-twittertitle: How to configure App Engine for your Go and Angular2 application
+twittertitle: How to configure App Engine for your Go application
 twitterdescription: Quick How-to with the basic App Engine configuration for an applicaiton using REST API and static files
 twitterimage: http://www.appscale.com/wp-content/uploads/2013/10/google-app-engine-logo.png
 ---
