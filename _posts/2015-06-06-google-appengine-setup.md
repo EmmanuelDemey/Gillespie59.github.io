@@ -24,7 +24,9 @@ In a daily bases, I am working with front-end technologies (HTML5, AngularJS, jQ
 
 Let start with the beginning… with the quick configuration of my AppEngine instance, defined in a app.yaml file. 
 
-The application will be composed of two parts : an REST API (implemented in Go) and an interface (using Angular2). The UI part should be available at “/” and the API at “/api/”. In the app.yaml configuration file of App Engine, I have to configure differents handlers, in a `handler` block,  based on an URL pattern. Here is the basic version of this file, defining the technologies of the application hosted on AppEngine. 
+The application will be composed of two parts : an REST API (implemented in Go) and an interface (using Angular2). The UI part should be available at “/” and the API at “/api/”. In the app.yaml configuration file of App Engine, I have to configure differents handlers, in a `handler` block,  based on an URL pattern. 
+
+Here is the basic version of this file, defining the technology of the application hosted on AppEngine. 
 
 
 {% highlight yaml %}
