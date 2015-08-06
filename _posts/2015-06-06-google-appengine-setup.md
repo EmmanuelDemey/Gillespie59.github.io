@@ -14,6 +14,7 @@ A new blog post since a long long… very long time. I promise I will write arti
 I have started last week a project in which I will only use Google technologies. It will help myself to learn new stuff. I won't explain what this application will be used for, I will let you discover with these blog posts.
 
 What I have in mind for the moment, is an application using : 
+
 - The Go language for the server-side hosted on App Engine
 - Angular2 and Material Design Lite for the front-end
 
@@ -23,7 +24,7 @@ In a daily bases, I am working with front-end technologies (HTML5, AngularJS, jQ
 
 Let start with the beginning… with the quick configuration of my AppEngine instance, defined in a app.yaml file. 
 
-The application will be composed of two parts : an REST API (implemented in Go) and an interface (using Angualar2). The UI part should be available at “/” and the API at “/api/”. In the app.yaml configuration file of App Engine, I have to configure differents handlers, in a `handler` block,  based on an URL pattern. Here is the basic version of this file, defining the technologies of the application hosted on AppEngine. 
+The application will be composed of two parts : an REST API (implemented in Go) and an interface (using Angular2). The UI part should be available at “/” and the API at “/api/”. In the app.yaml configuration file of App Engine, I have to configure differents handlers, in a `handler` block,  based on an URL pattern. Here is the basic version of this file, defining the technologies of the application hosted on AppEngine. 
 
 
 {% highlight yaml %}
