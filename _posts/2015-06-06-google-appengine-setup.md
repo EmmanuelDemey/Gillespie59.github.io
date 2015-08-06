@@ -68,7 +68,7 @@ For each URL pattern (based on the file extension) , we will define at least thr
 - static_files : the path of the files matched by the URL pattern. You can access to capture groups defined in the URL pattern ("\1" refer to the first group, "\2" the second one...).
 - upload : a regexp corresponding to the path of all files served by this handler
 
-Other configurations are available, I let you read [the corresponding documentation](https://cloud.google.com/appengine/docs/python/config/appconfig#Python_app_yaml_Static_file_pattern_handlers).
+Other configuration properties are available, I let you read [the corresponding documentation](https://cloud.google.com/appengine/docs/python/config/appconfig#Python_app_yaml_Static_file_pattern_handlers).
 
 {% highlight yaml %}
 handlers:
