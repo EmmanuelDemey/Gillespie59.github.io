@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Google #1 : How to configure App Engine for your Go and Angular2 application
+title: Google 1 : How to configure App Engine for your Go and Angular2 application
 categories: []
 tags: ["Google", "AppEngine"]
 fullview: true
