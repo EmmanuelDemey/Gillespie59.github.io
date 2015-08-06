@@ -47,10 +47,10 @@ Here is the description of these properties :
 - runtime : the App Engine runtime needed for your application
 - app_version : the version of the runtime
 
-The first handler will define is for the REST API. We have to define two properties :
+The first handler we will define is for the REST API. We have to define two properties :
 
-- url : the pattern of URL. In the regular expression, you can define capture group (more informations about these groups later). 
-- script : the name of the script App Engine has to execute for this URL pattern. For GO application, you have to use the magic string `_go_app`.
+- url : the pattern of the URL. In this regular expression, you can define capture group (more informations about these groups later). 
+- script : the name of the script App Engine has to execute for this URL pattern. For *Go* application, you have to use the magic string `_go_app`.
 
 {% highlight yaml %}
 handlers:
@@ -58,7 +58,7 @@ handlers:
   script: _go_app
 {% endhighlight %}
 
-When your API is implemented, if you launch your application with the *goapp* utility (maybe a specific article about this command line tool ?), your API should be available !
+When your API is implemented, if you launch your application with the **goapp** utility (maybe a specific article about this command line tool ?), your API should be available !
 
 So we have our API, let’s configure our static files (CSS, JS and HTML for the moment). We will define the same kind of configuration described previously. 
 
