@@ -1,3 +1,4 @@
+window.client = 'Zenika';
 $( document ).ready(function() {
 
 	/* Sidebar height set */
