@@ -1,4 +1,3 @@
-window.client = 'Zenika';
 $( document ).ready(function() {
 
 	/* Sidebar height set */
@@ -13,6 +12,5 @@ $( document ).ready(function() {
 	contact_list.mouseenter(function(){ scontacts.fadeIn(); });
 	
 	contact_list.mouseleave(function(){ scontacts.fadeOut(); });
-	
-	e.length
+
 });
