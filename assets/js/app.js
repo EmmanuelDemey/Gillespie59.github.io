@@ -13,5 +13,5 @@ $( document ).ready(function() {
 	
 	contact_list.mouseleave(function(){ scontacts.fadeOut(); });
 	
-	a.length
+	b.length
 });
