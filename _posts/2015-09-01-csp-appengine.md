@@ -21,14 +21,15 @@ In my simple Google Application, I have added this useful header in order to mak
 
 In the AppEngine Yaml configuration file, I will add this new HTTP header for the URL matching my index.html file :
 
-```yaml
+{% highlight yaml %}
 - url: /
   static_files: static/index.html
   upload: static/index.html
   expiration: "15m"
   http_headers:
     Content-Security-Policy: "script-src 'self' code.angularjs.org jspm.io github.jspm.io;'"
-```
+{% endhighlight %}
+
 The **self** placeholder stands for all JavaScript files hosted on the same domain of your application. 
 Once you have added this header, your browser will warn you if you try to download a JavaScript file from a different domain. 
 
@@ -39,15 +40,14 @@ In fact, If you launch my Angular2 application with this configuration, it won't
 
 At the end, your CSP configuration should look like : 
 
-```yaml
+{% highlight yaml %}
 - url: /
   static_files: static/index.html
   upload: static/index.html
   expiration: "15m"
   http_headers:
     Content-Security-Policy: "script-src 'self' 'unsafe-inline' 'unsafe-eval' code.angularjs.org jspm.io github.jspm.io;'"
-
-```
+{% endhighlight %}
 
 For the purpose of this post, I have only configured CSP for JavaScript scripts, but you can of course limit CSS files, images, ... downloaded by the browser. 
 
