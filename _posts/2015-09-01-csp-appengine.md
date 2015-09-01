@@ -1,10 +1,10 @@
 ---
 layout: post
-title: How to enabled CSP on App Engine
+title: How to enable CSP on App Engine
 categories: []
 tags: ["Google", "AppEngine", "Security"]
 fullview: true
-twittertitle: How to enabled CSP on App Engine
+twittertitle: How to enable CSP on App Engine
 twitterdescription: A quick AppEngine configuration for enabling Content-Security-Header HTTP header in order to make your application more secure
 twitterimage: http://www.appscale.com/wp-content/uploads/2013/10/google-app-engine-logo.png
 ---
