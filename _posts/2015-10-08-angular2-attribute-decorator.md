@@ -1,10 +1,10 @@
 ---
 layout: post
-title: How to use the Angular2 @Attribute decorator
+title: Accessing static attribute values in Angular 2
 categories: []
 tags: ["Google", "Angular2", "AngularJS", "JavaScript"]
 fullview: true
-twittertitle: How to use the Angular2 @Attribute decorator
+twittertitle: Accessing static attribute values in Angular 2
 twitterdescription: A simple example of the @Attribute decorator, for managing javascript polyfills
 twitterimage: http://lauterry.github.io/slides-prez-angular/img/angularjs.png
 ---
