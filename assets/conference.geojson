@@ -48,27 +48,27 @@
       { 
           "type": "Feature",
           "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
-          "properties": {"Titre Conférence": "Angular2", "Conférence": "Matinale Zenika Lyon": "Ville", "Lyon"}
+          "properties": {"Titre Conférence": "Angular2", "Conférence": "Matinale Zenika Lyon", "Ville": "Lyon"}
       },
       { 
           "type": "Feature",
           "geometry": {"type": "Point", "coordinates": [48.8788608, 2.3283118]},
-          "properties": {"Titre Conférence": "Angular2", "Conférence": "Kaiz'n Day Zenika": "Ville", "Paris"}
+          "properties": {"Titre Conférence": "Angular2", "Conférence": "Kaiz'n Day Zenika", "Ville": "Paris"}
       },
       { 
           "type": "Feature",
           "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
-          "properties": {"Titre Conférence": "Angular2", "Conférence": "Evènement Interne Axa": "Ville", "Lille"}
+          "properties": {"Titre Conférence": "Angular2", "Conférence": "Evènement Interne Axa", "Ville": "Lille"}
       },
       { 
           "type": "Feature",
           "geometry": {"type": "Point", "coordinates": [50.6363944, 3.0622882]},
-          "properties": {"Titre Conférence": "Angular2", "Conférence": "Matinale Zenika Lille": "Ville", "Lille"}
+          "properties": {"Titre Conférence": "Angular2", "Conférence": "Matinale Zenika Lille", "Ville": "Lille"}
       },
       { 
           "type": "Feature",
           "geometry": {"type": "Point", "coordinates": [48.8788608, 2.3283118]},
-          "properties": {"Titre Conférence": "Angular2", "Conférence": "Matinale Zenika Paris": "Ville", "Paris"}
+          "properties": {"Titre Conférence": "Angular2", "Conférence": "Matinale Zenika Paris", "Ville": "Paris"}
       },
       { 
           "type": "Feature",
