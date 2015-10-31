@@ -37,12 +37,12 @@
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [3.0622882, 50.6363944]},
+          "geometry": {"type": "Point", "coordinates": [3.0622882, 50.6363945]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "Technozaure", "Ville": "Lille"}
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [48.8788608, 2.3283118]},
+          "geometry": {"type": "Point", "coordinates": [2.3283118, 48.8788608]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "GDGParis", "Ville": "Paris"}
       },
       { 
@@ -52,7 +52,7 @@
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [48.8788608, 2.3283118]},
+          "geometry": {"type": "Point", "coordinates": [2.3283118, 48.8788609]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "Kaiz'n Day Zenika", "Ville": "Paris"}
       },
       { 
@@ -67,7 +67,7 @@
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [48.8788608, 2.3283118]},
+          "geometry": {"type": "Point", "coordinates": [2.3283118, 48.8788610]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "Matinale Zenika Paris", "Ville": "Paris"}
       },
       { 
