@@ -37,7 +37,7 @@
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [50.6363944, 3.0622882]},
+          "geometry": {"type": "Point", "coordinates": [3.0622882, 50.6363944]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "Technozaure", "Ville": "Lille"}
       },
       { 
@@ -62,7 +62,7 @@
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [50.6363944, 3.0622882]},
+          "geometry": {"type": "Point", "coordinates": [3.0622882, 50.6363944]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "Matinale Zenika Lille", "Ville": "Lille"}
       },
       { 
