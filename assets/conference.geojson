@@ -7,6 +7,11 @@
       },
       { 
           "type": "Feature",
+          "geometry": {"type": "Point", "coordinates": [3.0613544, 50.6293521]},
+          "properties": {"Titre Conférence": "ESLint", "Conférence": "ChtiJS", "Ville": "Lille"}
+      },
+      { 
+          "type": "Feature",
           "geometry": {"type": "Point", "coordinates": [3.0321270, 50.5669147]},
           "properties": {"Titre Conférence": "Les PréProcesseurs CSS", "Conférence": "TakeForum (Worldline)", "Ville": "Seclin"}
       },
