@@ -42,7 +42,7 @@
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [48.8788608, 2.3283118]},
+          "geometry": {"type": "Point", "coordinates": [2.3283118, 48.8788608]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "GDGParis", "Ville": "Paris"}
       },
       { 
@@ -52,7 +52,7 @@
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [48.8788608, 2.3283118]},
+          "geometry": {"type": "Point", "coordinates": [2.3292989, 48.8790019]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "Kaiz'n Day Zenika", "Ville": "Paris"}
       },
       { 
@@ -67,7 +67,7 @@
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [48.8788608, 2.3283118]},
+          "geometry": {"type": "Point", "coordinates": [2.3276681, 48.8787761]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "Matinale Zenika Paris", "Ville": "Paris"}
       },
       { 
