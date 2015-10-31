@@ -2,43 +2,43 @@
     "features": [
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
+          "geometry": {"type": "Point", "coordinates": [3.0209925, 50.6323533]},
           "properties": {"Titre Conférence": "Kawwa", "Conférence": "Take Off Conf", "Ville": "Lille"}
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
+          "geometry": {"type": "Point", "coordinates": [3.0321270, 50.5669147]},
           "properties": {"Titre Conférence": "Les PréProcesseurs CSS", "Conférence": "TakeForum (Worldline)", "Ville": "Seclin"}
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
+          "geometry": {"type": "Point", "coordinates": [3.0297238, 50.5675689]},
           "properties": {"Titre Conférence": "PhoneGap", "Conférence": "TakeForum (Worldline)", "Ville": "Seclin"}
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
+          "geometry": {"type": "Point", "coordinates": [3.0301529, 50.5655518]},
           "properties": {"Titre Conférence": "Akka/Scala", "Conférence": "TakeForum (Worldline)", "Ville": "Seclin"}
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
+          "geometry": {"type": "Point", "coordinates": [3.0275780, 50.5667512]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "ChtiJug", "Ville": "Seclin"}
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
+          "geometry": {"type": "Point", "coordinates": [3.0262906, 50.5681141]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "Worldline", "Ville": "Seclin"}
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
+          "geometry": {"type": "Point", "coordinates": [4.8590960, 45.7547336]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "LyonJS", "Ville": "Lyon"}
       },
       { 
           "type": "Feature",
           "geometry": {"type": "Point", "coordinates": [3.0620951, 50.6365781]},
-          "properties": {"Titre Conférence": "Angular2", "Conférence": "Technozaure", "Ville": "Lille"}
+          "properties": {"Titre Conférence": "Angular2", "Conférence": "Technozaure Zenika Lille", "Ville": "Lille"}
       },
       { 
           "type": "Feature",
@@ -47,7 +47,7 @@
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
+          "geometry": {"type": "Point", "coordinates": [4.8619097, 45.7628233]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "Matinale Zenika Lyon", "Ville": "Lyon"}
       },
       { 
@@ -57,7 +57,7 @@
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
+          "geometry": {"type": "Point", "coordinates": [4.8616951, 45.7616407]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "Evènement Interne Axa", "Ville": "Lille"}
       },
       { 
@@ -72,12 +72,12 @@
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
+          "geometry": {"type": "Point", "coordinates": [-1.5536210, 47.2183710]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "GDG Nantes", "Ville": "Nantes"}
       },
       { 
           "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
+          "geometry": {"type": "Point", "coordinates": [5.7245240, 45.1885290]},
           "properties": {"Titre Conférence": "Angular2", "Conférence": "Meetup AngularJS", "Ville": "Grenoble"}
       }
     ]
