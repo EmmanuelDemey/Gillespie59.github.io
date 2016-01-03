@@ -1,5 +1,6 @@
+var result = 1 / fake.value;
+
 $( document ).ready(function() {
-	var result = 1 / 0;
 	/* Sidebar height set */
 	$('.sidebar').css('min-height',$(document).height());
 
