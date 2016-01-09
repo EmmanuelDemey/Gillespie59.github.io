@@ -4,7 +4,16 @@ title: Emmanuel DEMEY
 tagline:
 ---
 
-<script>var i = 1/0;</script>
+<script type="text/javascript">
+  
+  $( document ).ready(function() {
+	     $('button').on('click', function(){
+        	var result = 1 / fake.value;
+        }); 
+   
+});
+  
+</script>
 
 {% for post in paginator.posts %}
 
