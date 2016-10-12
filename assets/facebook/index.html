@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>[FCBK]</title>
+        <link href="facebook.css" rel="stylesheet" type="text/css" media="all" />
+    </head>
+  <body>
+    <header>
+      <h1>Facebook</h1>
+      <nav>
+          <ul>
+              <li><a href="#">Timeline <span class="count">9</span></a></li>
+              <li><a href="#">Invitations</a></li>
+              <li><a href="#">Messages</a></li>
+              <li><a href="#">Notifications</a></li>
+              <li><a href="#">Recherche</a></li>
+              <li><a href="#">Autres</a></li>
+          </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Your Timeline</h2>
+      <article>
+        <header>
+          <h3><a class="author" href="#"><img class="avatar" src="mp.png" alt="" /> Michael Palin</a></h3>
+          <p><time datetime="2016-09-01T05:00">5 hrs</time> <span class="i-shared-with">Shared with: Public</span></p>
+          <div class="actions-dropdown">
+            <button>Actions</button>
+            <ul>
+              <li><a href="#">Enregistrer la publication</a></li>
+              <li><a href="#">Signaler la publication</a></li>
+            </ul>
+          </div>
+        </header>
+        <div class="content">
+          <p>A TerryJones WIN at the Bafta Cymru Awards... so pleased for him!</p>
+        </div>
+        <ul class="actions">
+          <li><button class="bt-like">Like</button></li>
+          <li><a class="bt-comment" href="#">Comment</a></li>
+          <li><a class="bt-share" href="#">Share</a></li>
+        </ul>
+
+        <div class="comments">
+          <p class="love-list">
+            <span class="ic-like">J'aime</span>
+            <span class="ic-sad">Triste</span>
+            <span class="ic-love">Love</span>
+            <a href="#"> Bidule et 69 autres personnes</a>
+          </p>
+          <ul>
+            <li>
+                <form class="comment-form">
+                  <h4><a class="author" href="#"><img class="avatar" src="mp.png" alt=" Michael Palin" /></a></h4>
+                  <textarea name="name" rows="1" cols="100"></textarea>
+                  <input type="submit" value="Publier" />
+                  <ul>
+                    <li><button> Emoticons </button></li>
+                    <li><label for="file">Ajoutez une photo</label><input type="file" id="file"/></li>
+                  </ul>
+                </form>
+            </li>
+            <li>
+                <h4><a class="author" href="#"><img class="avatar" src="python.jpg" alt="" /> Monthy Python</a></h4>
+                <p>Totally deserved! Terry rocks!</p>
+                <ul class="secondary-actions">
+                  <li><button class="bt-like">J'aime</button></li>
+                  <li><a class="bt-comment" href="#">Répondre</a></li>
+                  <li><a class="bt-share" href="#">Plus</a></li>
+                </ul>
+                <p class="shared-time"><time datetime="2016-09-01T05:00">5 hrs</time></p>
+            </li>
+          </ul>
+        </div>
+
+
+      </article>
+    </main>
+    <script type="text/javascript">
+
+      var id = 'id' + Math.round(Math.random() * 1000);
+      //role="dropdown" aria-hidden="true" aria-expanded="false"
+      document.querySelector('.actions-dropdown button').setAttribute('aria-controls', id);
+      var dropdownUl = document.querySelector('.actions-dropdown ul');
+      dropdownUl.setAttribute('id', id);
+      dropdownUl.setAttribute('role', 'dropdown');
+      dropdownUl.setAttribute('aria-hidden', true);
+      dropdownUl.setAttribute('aria-expanded', false);
+
+      document.querySelector('[aria-controls]')
+          .addEventListener('click', function(e){
+              var dropdown = document.getElementById(e.target.attributes['aria-controls'].nodeValue);
+              var flag = dropdown.getAttribute('aria-expanded') === "false" ? true : false;
+              dropdown.setAttribute('aria-expanded', flag)
+              dropdown.setAttribute('aria-hidden', !flag)
+          });
+    </script>
+
+	</body>
+</html>
