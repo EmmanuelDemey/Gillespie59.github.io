@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>The Web and the Butterfly Effect</title>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>The Web <span>&amp; the</span>Butterfly Effect</h1>
+					<h2>Predicting Chaos</h2>
+					<p> Angela RICCI and Emmanuel DEMEY </p>
+				</section>
+				<section>
+					<blockquote>Small causes can have large effects</blockquote>
+				</section>
+				<section>
+					<p class="main-p"><strong>Sensitive dependence</strong> of initial conditions</p>
+				</section>
+				<section>
+					<p class="main-p">HTML</p>
+				</section>
+				<section>
+					<p><img src="lib/later.jpg" alt="We'll deal with that later" /></p>
+				</section>
+				<section>
+					<pre>
+						<code class="html">
+&#x3C;div role=&#x22;button&#x22;
+ class=&#x22;btn btn-default btn-lg&#x22;&#x3E;
+ &#x3C;span
+  class=&#x22;glyphicon glyphicon-trash&#x22;
+	aria-hidden=&#x22;true&#x22;&#x3E;&#x3C;/span&#x3E;
+		Delete
+&#x3C;/div&#x3E;
+				</code>
+					</pre>
+				</section>
+				<section>
+					<pre>
+						<code class="html">
+&#x3C;button type=&#x22;button&#x22;
+	class=&#x22;icon-delete&#x22;&#x3E;
+ Delete
+&#x3C;/button&#x3E;
+				</code>
+					</pre>
+				</section>
+				<section>
+					<p><img src="lib/devices.jpg" alt="Devices" /></p>
+				</section>
+				<section>
+					<p class="main-p">Bad HTML means bad performance</p>
+				</section>
+				<section>
+					<p class="main-p">Progressive Enhancement</p>
+				</section>
+				<section>
+					<blockquote>If you don’t understand CSS well enough to
+					understand what your pre-processor is reducing, is it good engineering practice to even use it?</blockquote>
+					<cite>John Allsopp</cite>
+				</section>
+				<section>
+					<blockquote>Design like we give a damn!</blockquote>
+					<cite>Léonie Watson</cite>
+				</section>
+				<section>
+					<p class="main-p">Thanks!</p>
+					<p>@gericci / @EmmanuelDemey</p>
+				</section>
+			</div>
+		</div>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script>
+
+			// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+controls: true,
+progress: true,
+history: true,
+center: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+{ src:'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]
+});
+
+		</script>
+	</body>
+</html>
