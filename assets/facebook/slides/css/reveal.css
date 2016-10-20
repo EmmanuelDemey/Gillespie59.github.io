@@ -1259,4 +1259,4 @@ body {
 	visibility: hidden;
 }
 
-.reveal li { font-size: 8vmaxx; }
+.reveal p, .reveal li { font-size: 8vmaxx; }
