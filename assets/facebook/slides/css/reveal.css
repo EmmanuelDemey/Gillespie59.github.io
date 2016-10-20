@@ -1259,4 +1259,4 @@ body {
 	visibility: hidden;
 }
 
-.reveal p, .reveal li { font-size: 8vmaxx; }
+.reveal p, .reveal li { font-size: 8vmax; line-height: 1;}
