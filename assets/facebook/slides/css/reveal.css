@@ -1258,3 +1258,5 @@ body {
 .zoomed .reveal .roll span:after {
 	visibility: hidden;
 }
+
+.reveal li { font-size: 8vmaxx; }
