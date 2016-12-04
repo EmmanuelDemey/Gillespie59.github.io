@@ -4,7 +4,7 @@ title: How to execute Angular2 code before any rendering
 categories: []
 tags: ["Google", "Angular2", "JavaScript", "TypeScript"]
 fullview: true
-twittertitle: How to execute Angular2 code before any rendering
+twittertitle: How to execute Angular2 code before any rendering https://gillespie59.github.io/2016/12/04/angular2-code-before-rendering.html
 twitterdescription: How to execute Angular2 code before any rendering
 twitterimage: http://lauterry.github.io/slides-prez-angular/img/angularjs.png
 ---
