@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Prettier</title><meta name="generator" content="Asciidoctor 1.5.6.1 (Bespoke.js converter)"><meta name="mobile-web-app-capable" content="yes"><link rel="stylesheet" href="build/build.css"></head><body><article class="deck"><section class="title" data-title=""><h1>Prettier</h1></section><section><h2>Images</h2><figure class="image"><img src="images/bespoke-logo.jpg" alt="bespoke logo"></figure></section>
+<section><h2>Keyboard Interaction</h2><h3 class="discrete">Powered by <a href="https://github.com/bespokejs/bespoke-keys">bespoke-keys</a></h3></section>
+<section><h2>Touch Interaction</h2><h3 class="discrete">Powered by <a href="https://github.com/bespokejs/bespoke-scale">bespoke-scale</a></h3></section>
+<section><h2>Bullet List</h2><h3 class="discrete">Powered by <a href="https://github.com/bespokejs/bespoke-bullets">bespoke-bullets</a></h3>
+<ul class="build build-items"><li><span class="primary">Bullet 1</span></li><li><span class="primary">Bullet 2</span></li><li><span class="primary">Bullet 3</span></li></ul></section>
+<section><figure class="video youtube"><iframe src="https://www.youtube.com/embed/AV3kYPutYfs?enablejsapi=1&amp;rel=0&amp;showinfo=0&amp;controls=0&amp;disablekb=1&amp;loop=1&amp;playlist=AV3kYPutYfs" width="640" height="360" frameborder="0" allowfullscreen="true" data-volume="0"></iframe></figure></section>
+<section><h2>Syntax Highlighting</h2><pre class="source"><code data-lang="js" class="language-js prettyprint">(<span style="color:#080;font-weight:bold">function</span>() {
+  <span style="color:#080;font-weight:bold">function</span> <span style="color:#06B;font-weight:bold">hanoi</span>(n, a, b, c) {
+    <span style="color:#080;font-weight:bold">return</span> n ? hanoi(n - <span style="color:#00D">1</span>, a, c, b)
+        .concat([[a, b]])
+        .concat(hanoi(n - <span style="color:#00D">1</span>, c, b, a)) : [];
+  }
+  <span style="color:#080;font-weight:bold">return</span> hanoi(<span style="color:#00D">3</span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">left</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">right</span><span style="color:#710">'</span></span>, <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20">mid</span><span style="color:#710">'</span></span>)
+    .map(<span style="color:#080;font-weight:bold">function</span>(d) {
+      <span style="color:#080;font-weight:bold">return</span> d[<span style="color:#00D">0</span>] + <span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">'</span><span style="color:#D20"> -&gt; </span><span style="color:#710">'</span></span> + d[<span style="color:#00D">1</span>];
+    });
+})();</code></pre></section>
+<section><h2>Just the beginning&#8230;&#8203;</h2><ul class="build build-items"><li><span class="primary">Edit <a href="http://asciidoctor.org">AsciiDoc</a> markup in <em class="path">src/index.adoc</em></span></li><li><span class="primary">Edit <a href="http://stylus-lang.com">Stylus</a> styles in <em class="path">src/styles/user.styl</em></span></li><li><span class="primary">Edit JavaScript in <em class="path">src/scripts/main.js</em></span></li></ul>
+<p class="build"><strong>Enjoy! :)</strong>
+<a href="https://twitter.com/markdalgleish">@markdalgleish</a></p></section></article><script src="build/build.js"></script></body></html>

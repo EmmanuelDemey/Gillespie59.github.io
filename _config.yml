@@ -5,6 +5,7 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
+exclude: [assets/slides/angular/node_modules/, assets/slides/prettier/node_modules/]
 
 title: Emmanuel DEMEY
 description: Spécialiste Web
@@ -22,5 +23,6 @@ rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
 liens_path: liens.html
+conferences_path: conferences.html
 
 BASE_PATH:
